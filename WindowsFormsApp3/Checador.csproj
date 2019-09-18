@@ -116,5 +116,15 @@
   <ItemGroup>
     <None Include="Resources\refrescar %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Entidad.csproj">
+      <Project>{44429FDC-A2AF-4EE9-A7E4-AE1F2B26CA0C}</Project>
+      <Name>Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{3579A6C6-F48E-4889-B71A-2FF3A509D84D}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
